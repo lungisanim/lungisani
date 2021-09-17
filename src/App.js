@@ -9,7 +9,7 @@ function App() {
       </div>
 
       <div id="footer">
-        Create your emotions. 2021
+        Create your emotions. (c) Your heart.
       </div>
     </div>
   );
