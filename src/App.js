@@ -8,9 +8,9 @@ function App() {
         <p>The hand that rocks the cradle, rules the world.</p>
       </div>
 
-      <footer>
+      <div id="footer">
         Create your emotions. 2021
-      </footer>
+      </div>
     </div>
   );
 }
