@@ -24,7 +24,7 @@ code {
 }
 
 .card:hover {
-  color:rgb(0, 38, 255);
+  color:rgb(255, 255, 255);
 }
 
 .card::before, .card::after {

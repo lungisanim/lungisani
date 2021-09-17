@@ -7,6 +7,10 @@ function App() {
       <div className="card">
         <p>The hand that rocks the cradle, rules the world.</p>
       </div>
+
+      <footer>
+        Create your emotions. 2021
+      </footer>
     </div>
   );
 }
