@@ -1,15 +1,18 @@
-
 import './App.css';
+const therain = require('../src/rain.js');
+
+therain.makeItRain();
 
 function App() {
   return (
-    <div className="App">
-      <div class="bg"></div>
-      <div class="lightning flashit"></div>
-      <div className="card">
-        <p>The hand that rocks the cradle, rules the world.</p>
+    <body class="back-row-toggle splat-toggle">
+      <div className="App">
+        <div class="bg"></div>
+        <div class="rain front-row"></div>
+        <div class="lightning flashit"></div>
+        <div class="rain back-row"></div>
       </div>
-    </div>
+    </body>
   );
 }
 
