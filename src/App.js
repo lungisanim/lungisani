@@ -1,7 +1,7 @@
 import './App.css';
 const therain = require('../src/rain.js');
 
-setInterval(() => {therain.makeItRain()}, 10000);
+setInterval(() => {therain.makeItRain()}, 25000);
 
 function App() {
   return (
